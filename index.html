@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MD Tajul Islam - Portfolio</title>
+  
+  <!-- Google Fonts: Inter & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+  
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme full-screen-bg">
+
+  <!-- NAVBAR (Floating Pill) -->
+  <nav class="navbar pill-navbar">
+    <div class="nav-container">
+      <a href="#" class="logo"><i class="ph ph-"></i> Tajul.</a>
+      <ul class="nav-links">
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#projects">WORK</a></li>
+        <li><a href="#" id="nav-about-trigger">ABOUT</a></li>
+      </ul>
+      <div class="nav-actions">
+        <div class="talk-dropdown-container">
+          <a href="#contact" class="btn btn-dark-pill">LET'S TALK</a>
+          
+          <div class="talk-dropdown">
+            <a href="https://wa.me/01960374881" target="_blank" class="talk-drop-item">
+              <div class="drop-icon drop-whatsapp"><i class="ph-fill ph-chat-circle"></i></div>
+              <div class="drop-text">
+                <span class="drop-title">WhatsApp</span>
+                <span class="drop-sub">Chat directly</span>
+              </div>
+            </a>
+            
+            <a href="mailto:mdtaijulislam1379@gmail.com" class="talk-drop-item">
+              <div class="drop-icon drop-email"><i class="ph ph-envelope-simple"></i></div>
+              <div class="drop-text">
+                <span class="drop-title">Email</span>
+                <span class="drop-sub">Send a message</span>
+              </div>
+            </a>
+            
+            <a href="#" class="talk-drop-item">
+              <div class="drop-icon drop-meeting"><i class="ph ph-calendar-blank"></i></div>
+              <div class="drop-text">
+                <span class="drop-title">Book a Call</span>
+                <span class="drop-sub">Find a time</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <button class="mobile-menu-btn"><i class="ph ph-list"></i></button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HERO HEADER TEXT -->
+    <section class="hero-header-section">
+      <p class="hero-subtitle">WEBSITE DEVELOPER & STRATEGY EXPERT HELPING BUSINESSES MOVE BEYOND</p>
+      <h1 class="hero-main-title">
+        what looks good<br>
+        what <span class="italic-serif">drives real results</span>
+      </h1>
+    </section>
+
+    <!-- BENTO GRID -->
+    <section id="home" class="bento-section">
+      <div class="hero-bento-grid">
+        
+        <!-- Column 1 -->
+        <div class="bento-col col-1">
+          <!-- Profile Photo -->
+          <div class="bento-card photo-card">
+            <img src="ta.jpg" alt="Tajul Islam">
+            <div class="photo-badge">
+              <i class="ph ph-arrow-up-right"></i>
+            </div>
+          </div>
+          
+          <!-- View Work Button -->
+          <a href="#projects" class="bento-card bg-dark view-work-btn">
+            View Work
+          </a>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="bento-col col-2">
+          <!-- Let's Connect -->
+          <div class="bento-card bg-dark social-connect">
+            <h3 class="connect-title">Let's Connect</h3>
+            <div class="social-boxes">
+              <a href="https://wa.me/01960374881" target="_blank" class="s-box">
+                <span class="corner-dot"></span>
+                <div class="s-icon-wrapper">
+                  <i class="ph ph-whatsapp-logo"></i>
+                </div>
+                <div class="s-text">
+                  <span class="s-name">WhatsApp</span>
+                  <small class="s-handle">01960374881</small>
+                </div>
+              </a>
+              <a href="https://linkedin.com/in/taijul-islam-4a58b1343" target="_blank" class="s-box">
+                <span class="corner-dot"></span>
+                <div class="s-icon-wrapper">
+                  <i class="ph ph-linkedin-logo"></i>
+                </div>
+                <div class="s-text">
+                  <span class="s-name">LinkedIn</span>
+                  <small class="s-handle">@taijul-islam</small>
+                </div>
+              </a>
+              <a href="mailto:mdtaijulislam1379@gmail.com" class="s-box">
+                <span class="corner-dot"></span>
+                <div class="s-icon-wrapper">
+                  <i class="ph ph-envelope-simple"></i>
+                </div>
+                <div class="s-text">
+                  <span class="s-name">Email</span>
+                  <small class="s-handle">Say Hello</small>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Text Card -->
+          <div class="bento-card bg-green text-card">
+            <p>I help turn <strong>business goals</strong> into thoughtful, high-performing websites for growing businesses and organizations.</p>
+          </div>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="bento-col col-3">
+          <!-- About Folder -->
+          <a href="#" id="about-trigger" class="about-folder">
+            <div class="folder-tab"></div>
+            <div class="folder-body bg-pink">
+              <span class="about-pill">About Me</span>
+            </div>
+          </a>
+          
+          <!-- Stats Card -->
+          <div class="bento-card bg-blue stats-new">
+            <h2>2+</h2>
+            <p>yrs of strategic experience</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MARQUEE SECTION -->
+    <div class="marquee-container">
+      <div class="marquee-content">
+        <span class="marquee-item"><i class="ph ph-code"></i> HTML5</span>
+        <span class="marquee-item"><i class="ph ph-paint-brush"></i> CSS3</span>
+        <span class="marquee-item"><i class="ph ph-file-js"></i> JavaScript</span>
+        <span class="marquee-item"><i class="ph ph-wordpress-logo"></i> WordPress</span>
+        <span class="marquee-item"><i class="ph ph-code"></i> C++</span>
+        <span class="marquee-item"><i class="ph ph-brain"></i> DSA</span>
+
+        <!-- Duplicated for infinite scroll -->
+        <span class="marquee-item" aria-hidden="true"><i class="ph ph-code"></i> HTML5</span>
+        <span class="marquee-item" aria-hidden="true"><i class="ph ph-paint-brush"></i> CSS3</span>
+        <span class="marquee-item" aria-hidden="true"><i class="ph ph-file-js"></i> JavaScript</span>
+        <span class="marquee-item" aria-hidden="true"><i class="ph ph-wordpress-logo"></i> WordPress</span>
+        <span class="marquee-item" aria-hidden="true"><i class="ph ph-code"></i> c++</span>
+        <span class="marquee-item"><i class="ph ph-brain"></i> DSA</span>
+      </div>
+    </div>
+
+    <!-- WAYS I CAN HELP SECTION -->
+    <section id="ways-to-help" class="section">
+      <div class="section-container ways-to-help-container">
+        <!-- Header -->
+        <div class="ways-header">
+          <h2 class="ways-title">WAYS I CAN<br>HELP</h2>
+          <p class="ways-desc">The right website depends on where your business is today. From launching your first website to building a scalable platform, each option is designed to help move your business forward.</p>
+        </div>
+
+        <!-- Cards Grid -->
+        <div class="ways-grid">
+          
+          <!-- Card 1: Light -->
+          <div class="ways-card card-light">
+            <div class="card-bg-number">01</div>
+            <h3>AI-Enhanced Website</h3>
+            <h4>For small businesses launching online</h4>
+            <p>If you're starting your online presence, I'll build a clean, modern website that represents your business and helps people reach out to you.</p>
+            
+            <div class="included-section">
+              <h5>WHAT'S INCLUDED</h5>
+              <ul class="included-list list-single">
+                <li>Clean website build</li>
+                <li>Pages designed to guide visitors to take action</li>
+                <li>Mobile-friendly design that works on all devices</li>
+                <li>Basic SEO setup so people can find you</li>
+              </ul>
+            </div>
+            
+            <a href="#" class="btn btn-ways-light w-full get-started-trigger">GET STARTED <i class="ph ph-arrow-up-right"></i></a>
+          </div>
+
+          <!-- Card 2: Dark -->
+          <div class="ways-card card-dark">
+            <div class="card-bg-number">02</div>
+            <div class="most-popular-badge">MOST POPULAR</div>
+            <h3>Growth Engine</h3>
+            <h4>For established businesses ready to grow</h4>
+            <p>If your business is already running and you want your website to support marketing and growth, I'll build a faster, more powerful system that does the work for you.</p>
+            
+            <div class="included-section">
+              <h5>WHAT'S INCLUDED</h5>
+              <ul class="included-list list-double">
+                <li>A custom website built to support growth</li>
+                <li>Speed and performance improvements</li>
+                <li>Integration with tools like CRM or other systems</li>
+                <li>Tracking setup so you can see what's working</li>
+              </ul>
+            </div>
+            
+            <a href="#" class="btn btn-ways-dark w-full get-started-trigger">GET STARTED <i class="ph ph-arrow-up-right"></i></a>
+          </div>
+
+          <!-- Card 3: Wide Green -->
+          <div class="ways-card card-wide-green">
+            <div class="wide-card-content">
+              <div class="wide-card-text">
+                <div class="card-bg-number">03</div>
+                <h3>ENTERPRISE PLATFORM</h3>
+                <h4>For organizations with complex needs</h4>
+                <p>If your project needs more than a standard website, I can build a custom platform designed around your workflows and systems.</p>
+              </div>
+              <div class="wide-card-action">
+                <a href="#" class="btn btn-ways-dark get-started-trigger">GET STARTED <i class="ph ph-arrow-up-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="section-container bento-card portion-card">
+        <div class="section-header">
+          <span class="subtitle">Services</span>
+          <h2>My Expertise</h2>
+        </div>
+        <div class="services-grid">
+          <div class="service-box">
+            <div class="service-icon"><i class="ph ph-globe-hemisphere-west"></i></div>
+            <h3>Web Development</h3>
+            <p>Building responsive and modern websites tailored to your needs.</p>
+          </div>
+          <div class="service-box">
+            <div class="service-icon"><i class="ph ph-layout"></i></div>
+            <h3>Frontend Design</h3>
+            <p>Creating clean, intuitive UI/UX that looks great on mobile and desktop.</p>
+          </div>
+          <div class="service-box">
+            <div class="service-icon"><i class="ph ph-wordpress-logo"></i></div>
+            <h3>WordPress Dev</h3>
+            <p>Building scalable, custom, and secure WordPress solutions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SMARTER EXECUTION SECTION -->
+    <section class="section execution-section">
+      <div class="section-container">
+        <div class="execution-card">
+          <div class="exec-left">
+            <span class="exec-badge"><i class="ph ph-magic-wand"></i> AI ASSISTED WORKFLOW</span>
+            <h2 class="exec-title">SMARTER<br><span class="gradient-text">EXECUTION</span></h2>
+          </div>
+          <div class="exec-right">
+            <div class="exec-icon"><i class="ph ph-cpu"></i></div>
+            <p class="exec-main-text">I use modern AI tools to support research, planning, and workflow efficiency so more time can be spent on thoughtful design and development.</p>
+            <div class="exec-sub-text">
+              <p>AI helps speed things up, but good strategy is still what drives real results.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW I WORK SECTION -->
+    <section class="how-i-work-section">
+      <div class="section-container">
+        <div class="how-header">
+          <h2 class="how-title">HOW I WORK</h2>
+          <p class="how-desc">A structured, strategic approach to building websites that perform and drive measurable results.</p>
+        </div>
+        <div class="how-grid">
+          
+          <div class="how-card card-pink">
+            <span class="how-number">01</span>
+            <h3>Discovery & Strategy</h3>
+            <p>Before anything else, I take time to understand your goals, your audience, and where things may not be working right now. This helps us set a clear direction for the project.</p>
+            <i class="ph ph-arrow-right how-arrow"></i>
+          </div>
+
+          <div class="how-card card-blue">
+            <span class="how-number">02</span>
+            <h3>UX & Architecture</h3>
+            <p>Next, I map out the structure of the website and the user journey. The goal is to make everything feel clear, intuitive, and easy for visitors to navigate.</p>
+            <i class="ph ph-arrow-right how-arrow"></i>
+          </div>
+
+          <div class="how-card card-green">
+            <span class="how-number">03</span>
+            <h3>Design & Development</h3>
+            <p>Once the plan is clear, I design and build the website. The focus is always on clean design, fast performance, and a smooth experience across all devices.</p>
+            <i class="ph ph-arrow-right how-arrow"></i>
+          </div>
+
+          <div class="how-card card-dark-inner">
+            <span class="how-number">04</span>
+            <h3>Launch & Optimization</h3>
+            <p>After testing everything carefully, the site goes live. From there, we continue to monitor, refine, and improve so the website keeps performing over time.</p>
+            <i class="ph ph-arrow-right how-arrow"></i>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- DETAILED ABOUT SECTION -->
+    <section class="section bento-section">
+      <div class="detailed-about-grid">
+        
+        <!-- Left: Pink Image Card -->
+        <div class="da-pink-card">
+          <div class="da-img-wrapper">
+            <img src="ta.jpg" alt="MD Tajul Islam">
+          </div>
+          <div class="da-pink-content">
+            <span class="da-badge">THE STRATEGIST</span>
+            <h2 class="da-name">MD Tajul<br>Islam</h2>
+            <p class="da-role">WEB DEVELOPER & STRATEGY EXPERT</p>
+          </div>
+        </div>
+
+        <!-- Right: Stacked Cards -->
+        <div class="da-right-stack">
+          <!-- Top: Blue Card -->
+          <div class="da-blue-card">
+            <h2 class="da-blue-title">I bridge the gap between design and business goals.</h2>
+            <p class="da-blue-desc">I don't just build websites. I take time to understand your goals, your audience, and what success actually looks like for your business. Then I design and develop digital experiences that are clear, thoughtful, and built to perform.</p>
+          </div>
+
+          <!-- Bottom: White Card -->
+          <div class="da-white-card">
+            <h5 class="da-white-header">&bull; HOW I WORK</h5>
+            <ul class="da-skills-list">
+              <li>CLEAR UX ARCHITECTURE</li>
+              <li>THOUGHTFUL LAYOUT SYSTEMS</li>
+              <li>PERFORMANCE & SPEED</li>
+              <li>BUSINESS-FOCUSED THINKING</li>
+              <li>CONVERSION STRATEGY</li>
+              <li>SCALABLE WEB DEVELOPMENT</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-container bento-card portion-card">
+        <div class="section-header">
+          <span class="subtitle">Portfolio</span>
+          <h2>Selected Works</h2>
+        </div>
+        <div class="projects-grid">
+          <div class="project-item inner-card">
+            <div class="project-image"><i class="ph ph-currency-circle-dollar"></i></div>
+            <div class="project-content">
+              <h3>Currency Converter</h3>
+              <p>A web application utilizing real-time API data for currency conversion.</p>
+              <a href="#" class="project-link">View Project <i class="ph ph-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="project-item inner-card">
+            <div class="project-image"><i class="ph ph-list-dashes"></i></div>
+            <div class="project-content">
+              <h3>Responsive Navbar</h3>
+              <p>A reusable, fully mobile-friendly navigation menu component.</p>
+              <a href="#" class="project-link">View Project <i class="ph ph-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="project-item inner-card">
+            <div class="project-image"><i class="ph ph-identification-card"></i></div>
+            <div class="project-content">
+              <h3>Portfolio Website</h3>
+              <p>A modern, glassmorphism-styled personal portfolio site.</p>
+              <a href="#" class="project-link">View Project <i class="ph ph-arrow-up-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LET'S TALK SECTION -->
+    <section id="contact" class="section talk-section">
+      <div class="talk-container">
+        <div class="talk-header">
+          <h2 class="talk-title">LET'S TALK</h2>
+          <p class="talk-subtitle">Have a project in mind? Let's talk about what you're trying to build.</p>
+        </div>
+
+        <div class="talk-form-card">
+          <form class="talk-form">
+            <div class="form-row">
+              <div class="form-group-talk">
+                <label>NAME</label>
+                <input type="text" placeholder="Your name" required>
+              </div>
+              <div class="form-group-talk">
+                <label>EMAIL</label>
+                <input type="email" placeholder="your@email.com" required>
+              </div>
+            </div>
+            <div class="form-group-talk">
+              <label>MESSAGE</label>
+              <textarea rows="4" placeholder="How can I help you?" required></textarea>
+            </div>
+            <button type="submit" class="btn-talk-submit"><i class="ph ph-paper-plane-right"></i> Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- NEW FOOTER -->
+  <footer class="new-footer">
+    <div class="footer-container">
+      
+      <div class="footer-brand">
+        <a href="#" class="footer-logo">Tajul<span>.</span></a>
+        <p class="footer-desc">Strategic web developer building conversion-focused websites for growing businesses.</p>
+      </div>
+
+      <div class="footer-links-group">
+        <div class="footer-col">
+          <h4 class="footer-heading pink-heading">NAVIGATION</h4>
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#" id="footer-about-trigger">About</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading blue-heading">CONNECT</h4>
+          <ul>
+            <li><a href="https://linkedin.com/in/taijul-islam-4a58b1343" target="_blank">LinkedIn</a></li>
+            <li><a href="https://wa.me/01960374881" target="_blank">WhatsApp</a></li>
+            <li><a href="mailto:mdtaijulislam1379@gmail.com">Email</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ABOUT ME MODAL -->
+  <div id="about-modal" class="modal-overlay hidden">
+    <div class="mac-window">
+      <div class="mac-header">
+        <div class="mac-buttons">
+          <span class="mac-btn close-modal-btn"></span>
+          <span class="mac-btn minimize"></span>
+          <span class="mac-btn maximize"></span>
+        </div>
+        <div class="mac-title"><i class="ph ph-folder"></i> About_Tajul</div>
+      </div>
+      <div class="mac-body">
+        <h1 class="modal-title">Know me <span class="light-text">better</span></h1>
+        
+        <h2 class="modal-greeting">Hey, I'm Tajul 👋</h2>
+        
+        <div class="modal-text">
+          <p>I'm a strategic web developer focused on building high-performing websites for service-based businesses and nonprofits.</p>
+          <p>I combine clear positioning, strong UX fundamentals, and modern tools to create digital foundations that support growth and deliver real results.</p>
+          <p>Every project starts with clarity. Who are we trying to reach? What action should they take? From there, I design and build structured websites that are clean, fast, and aligned with real business goals.</p>
+          <p>If you want to build something together, I'm in.</p>
+        </div>
+
+        <p class="modal-footer-note">Some photos from my gallery :)</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- GET STARTED MODAL -->
+  <div id="contact-modal" class="modal-overlay hidden">
+    <div class="mac-window contact-window">
+      <div class="mac-header">
+        <div class="mac-buttons">
+          <span class="mac-btn close-modal-btn"></span>
+          <span class="mac-btn minimize"></span>
+          <span class="mac-btn maximize"></span>
+        </div>
+        <div class="mac-title">CONNECT</div>
+      </div>
+      <div class="mac-body connect-body">
+        <h2 class="connect-modal-title">Let's Connect</h2>
+        <p class="connect-modal-subtitle">Choose how you'd like to reach out.</p>
+
+        <div class="connect-options">
+          
+          <a href="https://wa.me/01960374881" target="_blank" class="connect-option opt-whatsapp">
+            <div class="opt-icon"><i class="ph-fill ph-chat-circle"></i></div>
+            <div class="opt-text">
+              <h3>WhatsApp</h3>
+              <p>Chat directly with me</p>
+            </div>
+          </a>
+
+          <a href="mailto:mdtaijulislam1379@gmail.com" class="connect-option opt-message">
+            <div class="opt-icon"><i class="ph-fill ph-paper-plane-tilt"></i></div>
+            <div class="opt-text">
+              <h3>Send a Message</h3>
+              <p>Email me directly</p>
+            </div>
+          </a>
+
+          <a href="#" class="connect-option opt-meeting">
+            <div class="opt-icon"><i class="ph ph-calendar-blank"></i></div>
+            <div class="opt-text">
+              <h3>Book a Meeting</h3>
+              <p>Schedule a call</p>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
